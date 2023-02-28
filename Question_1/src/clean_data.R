@@ -1,0 +1,7 @@
+> yield_data=read.csv("C:/Users/DELL/Desktop/pds_assignment/Question_1/data_raw/raw_yield_data.csv")
+> View(yield_data)
+> clean_yield_data=na.omit(yield_data[yield_data$Age>20,])
+> View(clean_yield_data)
+> write.csv(clean_yield_data,"C:/Users/DELL/Desktop/pds_assignment/Question_1/data_clean/clean_yield_data.csv")
+> data=read.csv("C:/Users/DELL/Desktop/pds_assignment/Question_1/data_clean/clean_yield_data.csv")
+> View(data)

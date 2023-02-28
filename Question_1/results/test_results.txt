@@ -1,0 +1,12 @@
+
+	Welch Two Sample t-test
+
+data:  Age by Fragilty
+t = 1.2166, df = 5.0859, p-value = 0.2772
+alternative hypothesis: true difference in means between group N and group Y is not equal to 0
+95 percent confidence interval:
+ -10.74718  30.24718
+sample estimates:
+mean in group N mean in group Y 
+          41.00           31.25 
+
